@@ -1,3 +1,19 @@
 <resources>
+    <string name="facebook_app_id">741678779339835</string>
+    
+
     <string name="app_name">Nearwander</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_text">Get Weather</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="forgot_pass">Forgot password</string>
+    <string name="btn_forgot_pass">Send me a link</string>
+    <string name="signUp">Sign up</string>
+    <string name="login_button">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="logo">nearwander</string>
+
+
 </resources>

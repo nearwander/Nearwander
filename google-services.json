@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "72021750553",
+    "firebase_url": "https://nearwander-ab9d5.firebaseio.com",
+    "project_id": "nearwander-ab9d5",
+    "storage_bucket": "nearwander-ab9d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:72021750553:android:053a9e8479c6a52e",
+        "android_client_info": {
+          "package_name": "com.nearwander.application.nearwander"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "72021750553-4514t2slj9at9r0d06ema9con4d5cvns.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nearwander.application.nearwander",
+            "certificate_hash": "dc7f26b798951b41298679cdec8173d8f56ac98f"
+          }
+        },
+        {
+          "client_id": "72021750553-iuinpb87al9r07g3lb1vik0h09upohc8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDh_W0seO1iy6Qpisd9taI51BHrRV7mgxI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "72021750553-iuinpb87al9r07g3lb1vik0h09upohc8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
