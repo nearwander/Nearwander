@@ -43,6 +43,7 @@ public class SignupActivity extends AppCompatActivity {
                 progressDialog.dismiss();
 
                 if(task.isSuccessful()){
+                    finish();
                     Toast.makeText(SignupActivity.this, "Registration successful", Toast.LENGTH_LONG).show();
                     Intent i = new Intent(SignupActivity.this, MainActivity.class);
                     startActivity(i);

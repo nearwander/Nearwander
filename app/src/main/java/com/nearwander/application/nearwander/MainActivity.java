@@ -35,6 +35,7 @@ import com.google.firebase.auth.FacebookAuthProvider;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.GoogleAuthProvider;
+import com.nearwander.application.nearwander.tabbed.HomePageActivity;
 
 import static com.nearwander.application.nearwander.R.string.default_web_client_id;
 
@@ -107,6 +108,9 @@ public class MainActivity extends AppCompatActivity {
                 if (user != null) {
                     // User is signed in
                     Log.d(TAG, "onAuthStateChanged:signed_in:" + user.getUid());
+                    finish();
+                    Intent i = new Intent(getApplicationContext(), HomePageActivity.class);
+                    startActivity(i);
                 } else {
                     // User is signed out
                     Log.d(TAG, "onAuthStateChanged:signed_out");
@@ -197,6 +201,7 @@ public class MainActivity extends AppCompatActivity {
                             Toast.makeText(MainActivity.this, "Authentication failed.",
                                     Toast.LENGTH_SHORT).show();
                         }else {
+                            finish();
                             Intent i = new Intent(MainActivity.this, SetupProfile.class);
                             i.putExtra("Email", firebaseAuth.getCurrentUser().getEmail());
                             startActivity(i);
@@ -227,6 +232,7 @@ public class MainActivity extends AppCompatActivity {
                             Toast.makeText(MainActivity.this, "Authentication failed.",
                                     Toast.LENGTH_SHORT).show();
                         }else {
+                            finish();
                             Intent i = new Intent(MainActivity.this, SetupProfile.class);
                             i.putExtra("Email", firebaseAuth.getCurrentUser().getEmail());
                             startActivity(i);
@@ -247,6 +253,7 @@ public class MainActivity extends AppCompatActivity {
                 progressDialog.dismiss();
 
                 if (task.isSuccessful()){
+                    finish();
                     Toast.makeText(MainActivity.this, "Login successful", Toast.LENGTH_LONG).show();
                     Intent i = new Intent(MainActivity.this, SetupProfile.class);
                     i.putExtra("Email", firebaseAuth.getCurrentUser().getEmail());

@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "72021750553-umsch205tsd05l9v05e6cs9rs61ksrma.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nearwander.application.nearwander",
+            "certificate_hash": "f94e0b9b27e56dc82ea819f93a2cc3c86b9ce633"
+          }
+        },
+        {
           "client_id": "72021750553-rrf6c2ol5p1u2c13aev7vlbtd2or266b.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
