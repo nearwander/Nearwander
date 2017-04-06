@@ -1,6 +1,6 @@
 <resources>
     <string name="facebook_app_id">741678779339835</string>
-    
+
 
     <string name="app_name">Nearwander</string>
     <string name="action_settings">Settings</string>
@@ -14,6 +14,10 @@
     <string name="email">Email</string>
     <string name="password">Password</string>
     <string name="logo">nearwander</string>
+    <string name="title_activity_navigation_drawable">NavigationDrawable</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
 
 
 </resources>
