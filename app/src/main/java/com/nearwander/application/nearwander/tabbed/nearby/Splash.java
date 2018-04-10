@@ -1,36 +1,14 @@
 package com.nearwander.application.nearwander.tabbed.nearby;
 
-import android.support.v7.app.AppCompatActivity;
 import android.app.Activity;
-import android.app.ProgressDialog;
-import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Typeface;
-import android.location.Location;
-import android.location.LocationListener;
-import android.location.LocationManager;
-import android.net.wifi.WifiManager;
-import android.os.AsyncTask;
-import android.os.Handler;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
-import android.support.v7.app.AlertDialog;
-import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.view.View;
+import android.os.Handler;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
-import android.widget.AdapterView;
 import android.widget.ImageView;
-import android.widget.ListView;
 import android.widget.TextView;
-
-import com.nearwander.application.nearwander.tabbed.PlaceDetail.PlaceDetailBean;
-import com.nearwander.application.nearwander.tabbed.Utility.PlaceDetailParser;
-
-import java.util.List;
 
 import com.nearwander.application.nearwander.R;
 

@@ -1,29 +1,14 @@
 package com.nearwander.application.nearwander.tabbed;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.google.android.gms.auth.api.Auth;
-import com.google.android.gms.common.api.GoogleApiClient;
-import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.crash.FirebaseCrash;
-import com.nearwander.application.nearwander.MainActivity;
 import com.nearwander.application.nearwander.R;
-
-/**
- * Created by Rafli on 3/12/17.
- */
 
 public class Tab5Profile extends Fragment {
 
