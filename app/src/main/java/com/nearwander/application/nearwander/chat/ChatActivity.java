@@ -71,6 +71,8 @@ public class ChatActivity extends AppCompatActivity implements GoogleApiClient.O
         TextView messengerTextView;
         CircleImageView messengerCircleImageView;
 
+        //TES
+
         public MessageViewHolder(View v){
             super(v);
             messageTextView = (TextView) itemView.findViewById(R.id.messageTextView);
