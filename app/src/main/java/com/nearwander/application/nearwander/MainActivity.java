@@ -1,5 +1,5 @@
 package com.nearwander.application.nearwander;
-//Byan Gilar Naufal Rafli Zulkarnain
+//Byan Gilar Naufal Tommy Zulkarnain
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
 
     TextView logo;
 
-
+//t
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
