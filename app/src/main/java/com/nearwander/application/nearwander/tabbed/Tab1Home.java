@@ -36,18 +36,17 @@ public class Tab1Home extends Fragment {
         mEditText.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View arg0) {
-                try {
-                    Intent intent =
-                            new PlaceAutocomplete.IntentBuilder(PlaceAutocomplete.MODE_OVERLAY)
-                                    .build(getActivity());
-                    startActivityForResult(intent, PLACE_AUTOCOMPLETE_REQUEST_CODE);
-                } catch (GooglePlayServicesRepairableException e) {
+                //try {
+                   // Intent intent =//new PlaceAutocomplete.IntentBuilder(PlaceAutocomplete.MODE_OVERLAY)
+                                    //.build(getActivity());
+                    //startActivityForResult(intent, PLACE_AUTOCOMPLETE_REQUEST_CODE);
+                //} catch (GooglePlayServicesRepairableException e) {
                     // TODO: Handle the error.
-                } catch (GooglePlayServicesNotAvailableException e) {
+                //} catch (GooglePlayServicesNotAvailableException e) {
                     // TODO: Handle the error.
-                }
-                /*Intent intent = new Intent(getActivity(), PlacesMain.class);
-                startActivity(intent);*/
+                //}
+                Intent intent = new Intent(getActivity(), PlacesMain.class);
+                startActivity(intent);
             }
         });
         return rootView;
