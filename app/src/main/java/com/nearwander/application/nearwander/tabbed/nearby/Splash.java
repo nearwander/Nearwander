@@ -10,6 +10,7 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.nearwander.application.nearwander.MainActivity;
 import com.nearwander.application.nearwander.R;
 
 public class Splash extends Activity {
@@ -50,7 +51,7 @@ public class Splash extends Activity {
         new Handler().postDelayed(new Runnable(){
             @Override
             public void run() {
-                Intent mainIntent = new Intent(Splash.this, PlacesMain.class);
+                Intent mainIntent = new Intent(Splash.this, MainActivity.class);
                 Splash.this.startActivity(mainIntent);
                 Splash.this.finish();
             }

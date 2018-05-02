@@ -36,6 +36,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.GoogleAuthProvider;
 import com.nearwander.application.nearwander.tabbed.HomePageActivity;
+import com.nearwander.application.nearwander.tabbed.nearby.PlacesMain;
 
 import static com.nearwander.application.nearwander.R.string.default_web_client_id;
 
@@ -202,7 +203,7 @@ public class MainActivity extends AppCompatActivity {
                                     Toast.LENGTH_SHORT).show();
                         }else {
                             finish();
-                            Intent i = new Intent(MainActivity.this, SetupProfile.class);
+                            Intent i = new Intent(MainActivity.this, PlacesMain.class);
                             i.putExtra("Email", firebaseAuth.getCurrentUser().getEmail());
                             startActivity(i);
 
@@ -233,7 +234,7 @@ public class MainActivity extends AppCompatActivity {
                                     Toast.LENGTH_SHORT).show();
                         }else {
                             finish();
-                            Intent i = new Intent(MainActivity.this, SetupProfile.class);
+                            Intent i = new Intent(MainActivity.this, PlacesMain.class);
                             i.putExtra("Email", firebaseAuth.getCurrentUser().getEmail());
                             startActivity(i);
                         }
@@ -255,7 +256,7 @@ public class MainActivity extends AppCompatActivity {
                 if (task.isSuccessful()){
                     finish();
                     Toast.makeText(MainActivity.this, "Login successful", Toast.LENGTH_LONG).show();
-                    Intent i = new Intent(MainActivity.this, SetupProfile.class);
+                    Intent i = new Intent(MainActivity.this, PlacesMain.class);
                     i.putExtra("Email", firebaseAuth.getCurrentUser().getEmail());
                     startActivity(i);
                 }else {
